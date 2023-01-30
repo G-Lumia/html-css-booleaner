@@ -23,6 +23,7 @@
 .container{
     position:relative;
     width: 1000px;
+    margin-left:10px;
 }
 
 div.container h1{
@@ -30,10 +31,19 @@ div.container h1{
 }
 
 div.container img{
+    margin-top:10px;
     height:300px;
 }
 
-div.container p{
+div.container h4{
     font-size: 15px;
     color: lightslategray
+}
+
+div.container p{
+    font-size: 10px;
+}
+
+a{
+    text-decoration: none;
 }
