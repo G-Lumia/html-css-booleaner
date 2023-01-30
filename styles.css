@@ -16,6 +16,24 @@
     position:absolute;
     left:0;
     bottom:0;
-    height: 50%;
+    height: 70%;
     margin-bottom:5px;
+}
+
+.container{
+    position:relative;
+    width: 1000px;
+}
+
+div.container h1{
+    font-size: 40px;
+}
+
+div.container img{
+    height:300px;
+}
+
+div.container p{
+    font-size: 15px;
+    color: lightslategray
 }
