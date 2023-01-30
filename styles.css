@@ -50,9 +50,10 @@ a{
     text-decoration: none;
 }
 
-article{
+article,section{
     margin-top:10px;
 }
+
 article span{
     background-color: yellow;
 }
@@ -62,3 +63,42 @@ article ul{
     margin-left:10px;
 }
 
+table{
+    font-size: 15px;
+    text-align: left;
+}
+
+.short-cell{
+    width:20%;
+}
+
+.long-cell{
+    width:60%;
+}
+
+th{
+    color:white;
+}
+#blue{
+    background-color:rgb(62, 141, 221);
+}
+
+#lightblue{
+    background-color: lightblue;
+}
+
+#greytext{
+    margin-top:10px;
+    color: gray;
+    font-size: 25px;
+}
+
+footer div.container{
+    width:300px;
+}
+
+footer img{
+    width:15%;
+    display: block;
+    margin-bottom:5px;
+}
