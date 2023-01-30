@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 50px;
+    background-color: rgb(62, 141, 221);
+    background-image: url("img/pattern.png");
+    background-size: 200px;
+    background-repeat: repeat-x;
+    position:relative
+}
+
+#logo{
+    position:absolute;
+    left:0;
+    bottom:0;
+    height: 50%;
+    margin-bottom:5px;
+}
