@@ -22,10 +22,12 @@
 
 .container{
     position:relative;
-    width: 1000px;
     margin-left:10px;
 }
 
+div.container{
+    width:1000px;
+}
 div.container h1{
     font-size: 40px;
 }
@@ -47,3 +49,16 @@ div.container p{
 a{
     text-decoration: none;
 }
+
+article{
+    margin-top:10px;
+}
+article span{
+    background-color: yellow;
+}
+
+article ul{
+    padding:0px;
+    margin-left:10px;
+}
+
